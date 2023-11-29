@@ -4,7 +4,7 @@
 
  - Install dependencies:  cd your-project-folder, npm install
 
- - To start the application,run:  npm run build
+ - To start the application,run:  npm run start:prod
 
 
 
