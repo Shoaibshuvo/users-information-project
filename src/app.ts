@@ -12,4 +12,8 @@ app.use(cors());
 // application routes
 app.use('/api/users', UserRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Welcome to API');
+});
+
 export default app;
